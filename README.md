@@ -1,73 +1,250 @@
-# Welcome to your Lovable project
+# 🎓 ReUnionX – Alumni Management & Networking Platform
 
-## Project info
+> A full-stack Alumni Management Platform that bridges the gap between students and alumni by providing mentorship, event management, career opportunities, donations, and a centralized alumni database.
 
-**URL**: https://lovable.dev/projects/d318177d-6675-41b3-9c84-b5d954854ccf
+---
 
-## How can I edit this code?
+## 📌 Overview
 
-There are several ways of editing your application.
+ReUnionX is a centralized platform developed to strengthen the relationship between educational institutions, alumni, and students.
 
-**Use Lovable**
+The platform enables colleges to maintain a centralized alumni database while providing students with mentorship opportunities, career guidance, networking events, and job opportunities from alumni working in various companies.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d318177d-6675-41b3-9c84-b5d954854ccf) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+### 👨‍🎓 Student Portal
+- Browse Alumni Directory
+- Connect with Alumni
+- Request Mentorship
+- View Upcoming Events
+- Apply for Job Opportunities
+- View Profile
+- Receive Notifications
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🎓 Alumni Portal
 
-Follow these steps:
+- Mentor Students
+- Accept/Reject Mentorship Requests
+- Post Job Opportunities
+- Register Events
+- Make Donations
+- Manage Personal Profile
+- Build Professional Network
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🏫 College Administration
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Centralized Alumni Database
+- Manage Students & Alumni
+- Verify Alumni Accounts
+- Create & Manage Events
+- Publish Job Opportunities
+- Analytics Dashboard
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 🚀 Key Modules
+
+### 📚 Centralized Alumni Database
+
+A centralized repository that stores alumni information including
+
+- Graduation Year
+- Department
+- Current Company
+- Designation
+- Skills
+- Contact Information
+- Professional Experience
+
+This eliminates scattered alumni records and provides easy search and management.
+
+---
+
+### 🤝 Mentorship System
+
+Students can
+
+- Send mentorship requests
+- Connect with experienced alumni
+- Get career guidance
+- Seek interview preparation help
+- Build professional relationships
+
+Alumni can
+
+- Approve or reject mentorship requests
+- Communicate with students
+- Guide career development
+
+---
+
+### 📅 Event Management
+
+The platform allows colleges to organize
+
+- Alumni Meets
+- Networking Sessions
+- Workshops
+- Technical Talks
+- Career Guidance Programs
+
+Students and alumni can register directly from the portal.
+
+---
+
+### 💼 Job Portal
+
+Alumni can post
+
+- Full-Time Jobs
+- Internship Opportunities
+- Remote Positions
+
+Students can
+
+- Browse opportunities
+- Save jobs
+- Apply directly
+- Track applications
+
+---
+
+### ❤️ Donations
+
+Alumni can contribute towards
+
+- Scholarships
+- College Development
+- Student Welfare
+- Events
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+
+### Backend
+
+- Java
+- Spring Boot
+- Spring MVC
+- Spring Security
+
+### Database
+
+- MySQL
+
+### Tools
+
+- Maven
+- Git
+- GitHub
+- IntelliJ IDEA
+- Postman
+
+---
+
+## 📂 Project Architecture
+
+```
+ReUnionX
+│
+├── Authentication
+├── Dashboard
+├── Student Module
+├── Alumni Module
+├── Mentorship Module
+├── Job Portal
+├── Event Management
+├── Donation Module
+├── Profile Management
+└── Admin Module
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔒 Authentication
 
-**Use GitHub Codespaces**
+- Secure Login
+- Role-Based Access
+- Session Management
+- User Authorization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🎯 Problem Statement
 
-This project is built with:
+Most colleges struggle with maintaining alumni records and providing continuous interaction between alumni and current students.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Traditional alumni systems lack
 
-## How can I deploy this project?
+- Proper networking
+- Mentorship support
+- Centralized database
+- Job referrals
+- Event management
 
-Simply open [Lovable](https://lovable.dev/projects/d318177d-6675-41b3-9c84-b5d954854ccf) and click on Share -> Publish.
+ReUnionX solves these challenges by creating a unified platform where students, alumni, and institutions collaborate efficiently.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 💡 Future Enhancements
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Real-time Chat
+- Video Mentorship
+- AI-based Alumni Recommendation
+- Resume Review
+- Internship Recommendation Engine
+- Event QR Attendance
+- Email Notifications
+- Mobile Application
+- Analytics Dashboard
+- AI Career Guidance
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📸 Screenshots
+
+- Dashboard
+- Mentorship Requests
+- Job Opportunities
+- Events
+- Alumni Directory
+- Student Profile
+
+---
+
+## 👨‍💻 My Contribution
+
+- Designed complete database schema
+- Developed backend APIs using Spring Boot
+- Implemented authentication and authorization
+- Built mentorship workflow
+- Developed event management system
+- Created centralized alumni database
+- Implemented job opportunity module
+- Developed responsive frontend
+- Integrated CRUD operations with MySQL
+- Tested APIs using Postman
+
+---
+
+## ⭐ Outcome
+
+ReUnionX provides a single platform where colleges can effectively manage alumni while enabling students to receive mentorship, explore job opportunities, participate in events, and build strong professional networks with alumni.
+
+---
+
+Made with ❤️ by Harshit Srivastava
